@@ -1,0 +1,2 @@
+# LocalisationManager-Android
+LocalisationManagerKit-Android
