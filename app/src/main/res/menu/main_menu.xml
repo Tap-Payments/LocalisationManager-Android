@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_en"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="collapseActionView"
+        android:title="@string/select_eng" />
+    <item
+        android:id="@+id/action_ar"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="collapseActionView"
+        android:title="@string/select_arabic" />
+    <item
+        android:id="@+id/action_fr"
+        android:icon="@drawable/ic_language"
+        app:showAsAction="collapseActionView"
+        android:title="@string/select_french" />
+</menu>

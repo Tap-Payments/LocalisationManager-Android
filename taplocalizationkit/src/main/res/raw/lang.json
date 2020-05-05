@@ -1,0 +1,15 @@
+{
+  "en": {
+      "card_number_hint": "Enter Card Number",
+      "hello_text":"Hello Tap!"
+  },
+  "ar": {
+    "card_number_hint":"أدخل رقم البطاقة",
+    "hello_text": " مرحبا تاب!"
+  },
+  "fr": {
+  "card_number_hint": "Entrez le numéro de carte",
+  "hello_text":"Bonjour Tap!"
+}
+
+}

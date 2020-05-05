@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TapLocalizationSample</string>
+    <string name="card_number_hint">Enter Card Number</string>
+    <string name="select_language">Select Language</string>
+    <string name="select_eng">Select English</string>
+    <string name="select_arabic">Select Arabic</string>
+    <string name="select_french">Select French</string>
+</resources>

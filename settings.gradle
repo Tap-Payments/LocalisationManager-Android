@@ -1,0 +1,3 @@
+rootProject.name='TapLocalizationSample'
+include ':app'
+include ':taplocalizationkit'
