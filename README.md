@@ -56,7 +56,7 @@ class MyApp : Application() {
 2. On your base activity class override `onAttach`
 ```kotlin
 open class BaseActivity : AppCompatActivity() {
-    private val localeDelegate = EasyLocaleActivityDelegate()
+    private val localeDelegate = LocaleActivityDelegate()
 
     override fun attachBaseContext(newBase: Context) {
         super.attachBaseContext(localeDelegate.attachBaseContext(newBase))
