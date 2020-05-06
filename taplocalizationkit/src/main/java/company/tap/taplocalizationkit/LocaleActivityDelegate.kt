@@ -16,6 +16,11 @@ import java.util.*
 Copyright (c) 2020    Tap Payments.
 All rights reserved.
  **/
+/**
+ * Listens to the activity life cyle events .A class that has an  Android lifecycle.
+ *  These events can be used by custom components to handle lifecycle changes without
+ *  implementing any code inside the Activity or the Fragment.
+ * **/
 class LocaleActivityDelegate : LifecycleObserver {
     private var locale: Locale = Locale.getDefault()
     private var localeChangeListner: LocaleChangeListner? = null
