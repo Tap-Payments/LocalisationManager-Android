@@ -11,9 +11,4 @@
         android:icon="@drawable/ic_language"
         app:showAsAction="collapseActionView"
         android:title="@string/select_arabic" />
-    <item
-        android:id="@+id/action_fr"
-        android:icon="@drawable/ic_language"
-        app:showAsAction="collapseActionView"
-        android:title="@string/select_french" />
 </menu>

@@ -22,7 +22,7 @@ All rights reserved.
  * **/
 object  LocalizationManager {
     private lateinit var localized: JSONObject
-
+    private lateinit var  localeVal :JSONObject
     fun loadTapLocale(resources: Resources, resId: Int) {
         val `is`: InputStream = resources.openRawResource(resId)
         val writer: Writer = StringWriter()
@@ -36,13 +36,16 @@ object  LocalizationManager {
         }
         localized = JSONObject(writer.toString())
          println("localized is  $localized")
+    }
 
-      }
 
-
-    fun <T> getValue(path: String): T {
-        val localeVal = (localized.get(Locale.getDefault().toString()) as JSONObject)
-         val valuekey = localeVal.getString(path)
+    fun <T> getValue(path: String,componentName:String): T {
+        if(Locale.getDefault().toString().contains("en")){
+            localeVal = (localized.get("en") as JSONObject)
+        }else{
+            localeVal = (localized.get(Locale.getDefault().toString()) as JSONObject)
+        }
+         val valuekey = localeVal.getJSONObject(componentName).getString(path)
         return valuekey as T
     }
 

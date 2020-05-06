@@ -1,15 +1,30 @@
 {
   "en": {
-      "card_number_hint": "Enter Card Number",
-      "hello_text":"Hello Tap!"
+    "TapCardInputKit": {
+      "cardNumberPlaceHolder": "Card number",
+      "cardNamePlaceHolder": "Holder name",
+      "cardCVVPlaceHolder": "CVV",
+      "cardExpiryPlaceHolder": "MM/YY",
+      "cardSaveLabel": "For faster and more secure checkout,\nsave your card"
+    },
+    "Common": {
+      "next": "Next",
+      "previous": "Previous",
+      "done": "Done"
+    }
   },
   "ar": {
-    "card_number_hint":"أدخل رقم البطاقة",
-    "hello_text": " مرحبا تاب!"
-  },
-  "fr": {
-  "card_number_hint": "Entrez le numéro de carte",
-  "hello_text":"Bonjour Tap!"
-}
-
+    "TapCardInputKit": {
+      "cardNumberPlaceHolder": "رقم البطاقة",
+      "cardNamePlaceHolder": "صاحب البطاقة",
+      "cardCVVPlaceHolder": "الرمز الأمني",
+      "cardExpiryPlaceHolder": "شش/سس",
+      "cardSaveLabel": "لشراء أسرع و أكثر أماناً،\nإحفظ البطاقة"
+    },
+    "Common": {
+      "next": "التالي",
+      "previous": "السابق",
+      "done": "تم"
+    }
+  }
 }

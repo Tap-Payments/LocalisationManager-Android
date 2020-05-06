@@ -15,8 +15,8 @@ class MainActivity : LocaleAppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initAppLocale(R.raw.lang)
-        card_number_et.hint = LocalizationManager.getValue("card_number_hint")
-        hello_text.text = LocalizationManager.getValue("hello_text")
+        card_number_et.hint = LocalizationManager.getValue("cardNumberPlaceHolder","TapCardInputKit")
+        hello_text.text = LocalizationManager.getValue("next","Common")
     }
 
     private fun initAppLocale(lang: Int) {
@@ -35,10 +35,6 @@ class MainActivity : LocaleAppCompatActivity() {
         }
         R.id.action_ar -> {
             setLocale(Locale("ar"))
-            true
-        }
-        R.id.action_fr -> {
-            setLocale(Locale("fr"))
             true
         }
         else -> super.onOptionsItemSelected(item)
