@@ -13,7 +13,11 @@
       "done": "Done",
       "recent": "Recent",
       "edit": "Edit"
+    },
+    "TapMerchantSection": {
+      "paymentFor" : "سأدفع لـ"
     }
+
   },
   "ar": {
     "TapCardInputKit": {
@@ -29,6 +33,9 @@
       "done": "تم",
       "recent": "كروت سابقة",
       "edit": "تعديل"
+    },
+    "TapMerchantSection": {
+      "paymentFor" : "PAYMENT FOR"
     }
   }
 }
