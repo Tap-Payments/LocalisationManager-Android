@@ -20,6 +20,11 @@
       "items": "Items",
       "item": "Item",
       "select": "Select"
+    },
+    "ItemList": {
+      "showDesc": "Show Description",
+      "hideDesc": "Hide Description",
+      "Discount": "Discount"
     }
   },
   "ar": {
@@ -42,6 +47,11 @@
       "close": "غلق",
       "items": "منتجات",
       "item": "منتج"
+    },
+    "ItemList": {
+      "showDesc": "إظهار الوصف",
+      "hideDesc": "إخفاء الوصف",
+      "Discount": "خصم"
     }
   }
 }
