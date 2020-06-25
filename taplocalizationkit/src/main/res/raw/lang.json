@@ -15,11 +15,11 @@
       "previous": "Previous",
       "done": "Done",
       "recent": "Recent",
-      "edit": "Edit",
+      "edit": "EDIT",
       "close": "Close",
       "items": "Items",
       "item": "Item",
-      "select": "Select"
+      "select": "SELECT"
     },
     "ItemList": {
       "showDesc": "Show Description",
