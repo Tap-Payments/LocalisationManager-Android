@@ -15,8 +15,8 @@ class MainActivity : LocaleAppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initAppLocale(R.raw.lang)
-        card_number_et.hint = LocalizationManager.getValue("cardNumberPlaceHolder","TapCardInputKit")
-        hello_text.text = LocalizationManager.getValue("cardSaveLabel","TapCardInputKit")
+        card_number_et.hint = LocalizationManager.getValue("Message","TapOtpView","Ready")
+        hello_text.text = LocalizationManager.getValue("cardSaveLabel","TapCardInputKit","")
     }
 
     private fun initAppLocale(lang: Int) {

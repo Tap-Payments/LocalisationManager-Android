@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.res.Resources
 import android.util.Log
 import androidx.annotation.RawRes
+import dagger.Subcomponent
 import org.json.JSONObject
 import java.io.*
 import java.util.*
@@ -39,13 +40,14 @@ object  LocalizationManager {
     }
 
 
-    fun <T> getValue(path: String,componentName:String): T {
+    fun <T> getValue(path: String,componentName:String, subcomponentName: String?): T {
         if(Locale.getDefault().toString().contains("en")){
             localeVal = (localized.get("en") as JSONObject)
         }else{
             localeVal = (localized.get(Locale.getDefault().toString()) as JSONObject)
         }
-         val valuekey = localeVal.getJSONObject(componentName).getString(path)
+        println("localeVal $localeVal")
+         val valuekey = localeVal.getJSONObject(componentName).getJSONObject(path).get(subcomponentName)
         return valuekey as T
     }
 
