@@ -36,7 +36,7 @@ object LocalizationManager {
     }
 
 
-    fun <T> getValue(path: String, componentName: String, subcomponentName: String?): T {
+    fun <T> getValue(path: String, componentName: String, subcomponentName: String?=null): T {
         if (Locale.getDefault().toString().contains("en")) {
             localeVal = (localized.get("en") as JSONObject)
         } else {
