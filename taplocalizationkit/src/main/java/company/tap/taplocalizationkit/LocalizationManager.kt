@@ -1,5 +1,7 @@
 package company.tap.taplocalizationkit
 
+import android.app.Activity
+import android.content.Context
 import android.content.res.Resources
 import org.json.JSONObject
 import java.io.*
@@ -58,6 +60,11 @@ object LocalizationManager {
         println("valuekey $valuekey")
         return valuekey as T
     }
+
+    fun setLocale(context: Context,locale: Locale){
+        LocaleHelper.setlocale(context, locale)
+    }
+
 
 }
 
