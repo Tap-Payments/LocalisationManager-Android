@@ -16,7 +16,7 @@ internal object LocaleHelper {
 
     internal fun onAttachBaseContext(ctx: Context) = setlocale(ctx, getCurrentLocale(ctx))
 
-    private fun getCurrentLocale(ctx: Context): Locale {
+     fun getCurrentLocale(ctx: Context): Locale {
         LocalePrefrences.getLocaleSharedPreference(ctx)?.let {
             return Locale(
                 it.getString(LocalePrefrences.PREF_LANGUAGE, Locale.getDefault().language)!!,
