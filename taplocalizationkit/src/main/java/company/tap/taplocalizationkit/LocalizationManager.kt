@@ -65,7 +65,7 @@ object LocalizationManager {
         LocaleHelper.setlocale(context, locale)
     }
 
-    fun setLocale(context: Context) : Locale{
+    fun getLocale(context: Context) : Locale{
        return LocaleHelper.getCurrentLocale(context)
     }
 
