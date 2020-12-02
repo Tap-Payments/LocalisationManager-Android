@@ -28,8 +28,7 @@
       "hideDesc": "Hide Description",
       "Discount": "Discount"
     },
-    "Hints":
-    {
+    "Hints": {
       "Warning":
       {
         "missingExpiryCVV": "Expiry date & CVV number are missing.",
@@ -168,13 +167,14 @@
       "goPayTextLabel": "من خلال تمكين goPay ، سيتم حفظ رقم هاتفك المحمول في Tap Payments للحصول على عمليات دفع أسرع وأكثر أمانًا في العديد من التطبيقات والمواقع الإلكترونية.",
       "savegoPayLabel": "حفظ لعمليات الخروجgoPay",
       "goPaySignupLabel": "يرجى التحقق من بريدك الإلكتروني أو رسائل SMS لإكمال عملية الاشتراك في goPay Checkout."
+    },
+    "ActionButton":{
+      "pay": "إدفع",
+      "confirm": "تأكيد",
+      "resend": "إعادة إرسال",
+      "next": "التالي",
+      "signin": "دخول"
     }
-  },
-  "ActionButton":{
-    "pay": "إدفع",
-    "confirm": "تأكيد",
-    "resend": "إعادة إرسال",
-    "next": "التالي",
-    "signin": "دخول"
   }
+
 }
