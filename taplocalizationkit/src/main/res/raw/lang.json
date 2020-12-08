@@ -48,7 +48,7 @@
       },
       "GoPayLogin":
       {
-        "password": "",
+        "password": "Incorrect Password",
         "otp": "OTP has been sent to"
       }
     },
@@ -68,8 +68,8 @@
       "close": "Close",
       "items": "Items",
       "item": "Item",
-      "email": "email",
-      "phone": "phone",
+      "email": "Email",
+      "phone": "Phone",
       "password": "Password",
       "change": "change"
     },
@@ -144,7 +144,7 @@
       },
       "GoPayLogin":
       {
-        "password": "",
+        "password": "كلمة السر غير صحيحة",
         "otp": "تم إرسال الرمز لـ"
       }
     },
