@@ -50,6 +50,10 @@
       {
         "password": "Incorrect Password",
         "otp": "OTP has been sent to"
+      },
+      "GoPayAlert": {
+        "goPayemailalert": "Please check your email and follow the steps",
+        "goPayTitle": "goPay"
       }
     },
     "TapOtpView": {
@@ -146,6 +150,10 @@
       {
         "password": "كلمة السر غير صحيحة",
         "otp": "تم إرسال الرمز لـ"
+      },
+      "GoPayAlert": {
+        "goPayemailalert": "يرجى التحقق من بريدك الإلكتروني واتباع الخطوات",
+        "goPayTitle": "goPay"
       }
     },
     "Common": {
