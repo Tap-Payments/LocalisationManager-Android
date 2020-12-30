@@ -94,6 +94,11 @@
       "resend": "Resend",
       "next": "Next",
       "signin": "Signin"
+    },
+    "NFC": {
+      "scan": "Ready to scan, add the card under the device to scan it.",
+      "nfcDescription": "Near-field communication is a set of communication protocols for communication between two electronic devices over a distance of 4 cm or less.",
+      "nfcUnsupported": "NFC is not supported!"
     }
   },
   "ar": {
@@ -192,6 +197,11 @@
       "resend": " إعادة إرسال رمز الـ OTP",
       "next": "التالي",
       "signin": "تسجيل الدخول"
+    },
+    "NFC": {
+      "scan": "جاهز للمسح الضوئي ، أضف البطاقة أسفل الجهاز لمسحها ضوئيًا.",
+      "nfcDescription": "الاتصال قريب المدى عبارة عن مجموعة من بروتوكولات الاتصال للاتصال بين جهازين إلكترونيين على مسافة 4 سم أو أقل.",
+      "nfcUnsupported": "NFC غير مدعوم!"
     }
   }
 
