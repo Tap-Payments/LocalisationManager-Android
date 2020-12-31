@@ -76,7 +76,10 @@
       "email": "Email",
       "phone": "Phone",
       "password": "Password",
-      "change": "change"
+      "change": "change",
+      "yes": "Yes",
+      "no": "No",
+      "ok": "OK"
     },
     "GoPay": {
       "HintLabel": "You can access your saved cards from anywhere with goPay.",
@@ -179,7 +182,10 @@
       "email": "البريد الإلكتروني",
       "phone": "رقم الهاتف",
       "password": "كلمة السر",
-      "change": "تعديل"
+      "change": "تعديل",
+      "yes": "نعم",
+      "no": "لا",
+      "ok": "حسنا"
     },
     "GoPay": {
       "HintLabel": "يمكنك الوصول لبطاقات الدفع الخاصة بك من أي مكان مع goPay.",
