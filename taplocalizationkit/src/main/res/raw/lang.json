@@ -98,6 +98,19 @@
       "next": "Next",
       "signin": "Signin"
     },
+    "SavedCardTitle": {
+      "saveCardTitle": "Enter Card Details",
+      "deleteSavedCardTitle": "Delete Card",
+      "deleteSavedCardButtonDelete": "Delete",
+      "deleteSavedCardButtonCancel": "Cancel",
+      "deleteSavedCardMsg": "Are you sure you would like to delete card"
+    },
+    "ExtraFees": {
+      "extraFeesAlertTitle": "Confirm extra charges",
+      "extraFeesAlertMessage": "You will be charged an additional fee of %s for this type of payment, totaling an amount of %s",
+      "extraFeesAlertConfirm": "Confirm",
+      "extraFeesAlertCancel":"Cancel"
+    },
     "NFC": {
       "scan": "Ready to scan, add the card under the device to scan it.",
       "nfcDescription": "Near-field communication is a set of communication protocols for communication between two electronic devices over a distance of 4 cm or less.",
@@ -207,6 +220,13 @@
       "next": "التالي",
       "signin": "تسجيل الدخول"
     },
+    "SavedCardTitle": {
+      "saveCardTitle": "ادفع",
+      "deleteSavedCardTitle": "حذف البطاقة",
+      "deleteSavedCardButtonDelete": "حذف",
+      "deleteSavedCardButtonCancel": "إلغاء",
+      "deleteSavedCardMsg": "هل أنت متأكد من حذف البطاقة"
+    },
     "NFC": {
       "scan": "جاهز للمسح الضوئي ، أضف البطاقة أسفل الجهاز لمسحها ضوئيًا.",
       "nfcDescription": "الاتصال قريب المدى عبارة عن مجموعة من بروتوكولات الاتصال للاتصال بين جهازين إلكترونيين على مسافة 4 سم أو أقل.",
@@ -214,6 +234,12 @@
       "enableNFC":"يرجى تمكين NFC",
       "disabledNFC": "NFC غير ممكّن",
       "scanSuccess": "تم المسح بنجاح!"
+    },
+    "ExtraFees": {
+      "extraFeesAlertTitle": "تأكيد الرسوم الإضافية",
+      "extraFeesAlertMessage": "سوف تتم إضافة  %s لهذه العملية، إجمالي المبلغ المطلوب  %s",
+      "extraFeesAlertConfirm": "تأكيد",
+      "extraFeesAlertCancel":"إلغاء"
     }
   }
 
