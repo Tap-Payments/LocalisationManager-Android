@@ -111,6 +111,10 @@
       "extraFeesAlertConfirm": "Confirm",
       "extraFeesAlertCancel":"Cancel"
     },
+    "AlertBox": {
+      "alertUnsupportedCardMessage": "This card is not supported",
+      "alertUnsupportedCardTitle": "Attention"
+    },
     "NFC": {
       "scan": "Ready to scan, add the card under the device to scan it.",
       "nfcDescription": "Near-field communication is a set of communication protocols for communication between two electronic devices over a distance of 4 cm or less.",
@@ -240,6 +244,10 @@
       "extraFeesAlertMessage": "سوف تتم إضافة  %s لهذه العملية، إجمالي المبلغ المطلوب  %s",
       "extraFeesAlertConfirm": "تأكيد",
       "extraFeesAlertCancel":"إلغاء"
+    },
+    "AlertBox": {
+      "alertUnsupportedCardMessage": "نوع البطاقة غير مدعوم",
+      "alertUnsupportedCardTitle": "تنبيه"
     }
   }
 
