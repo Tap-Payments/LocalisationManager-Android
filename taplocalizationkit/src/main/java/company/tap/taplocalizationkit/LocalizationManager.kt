@@ -34,7 +34,7 @@ object LocalizationManager {
             }
         }
         localized = JSONObject(writer.toString())
-        println("localized is  $localized")
+      
     }
 
 
