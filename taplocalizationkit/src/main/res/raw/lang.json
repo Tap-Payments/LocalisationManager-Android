@@ -247,7 +247,7 @@
     "ExtraFees": {
       "extraFeesAlertTitle": "تأكيد الرسوم الإضافية",
       "extraFeesAlertMessagePart1": "سوف تتم إضافة",
-      "extraFeesAlertMessagePart2": "سوف تتم إضافة  %s لهذه العملية، إجمالي المبلغ المطلوب ",
+      "extraFeesAlertMessagePart2": " لهذه العملية، إجمالي المبلغ المطلوب ",
       "extraFeesAlertConfirm": "تأكيد",
       "extraFeesAlertCancel":"إلغاء"
     },
