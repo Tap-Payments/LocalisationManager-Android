@@ -98,7 +98,8 @@
       "confirm": "Confirm",
       "resend": "Resend",
       "next": "Next",
-      "signin": "Signin"
+      "signin": "Signin",
+      "savecard": "Save Card"
     },
     "SavedCardTitle": {
       "saveCardTitle": "Enter Card Details",
@@ -227,7 +228,8 @@
       "confirm": "تأكيد",
       "resend": " إعادة إرسال رمز الـ OTP",
       "next": "التالي",
-      "signin": "تسجيل الدخول"
+      "signin": "تسجيل الدخول",
+      "savecard": "احفظ البطاقة"
     },
     "SavedCardTitle": {
       "saveCardTitle": "ادفع",
