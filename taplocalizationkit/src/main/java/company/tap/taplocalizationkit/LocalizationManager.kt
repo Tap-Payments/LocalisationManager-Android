@@ -3,6 +3,8 @@ package company.tap.taplocalizationkit
 import android.app.Activity
 import android.content.Context
 import android.content.res.Resources
+import android.widget.Toast
+import com.koushikdutta.ion.Ion
 import org.json.JSONObject
 import java.io.*
 import java.util.*
@@ -36,6 +38,21 @@ object LocalizationManager {
         localized = JSONObject(writer.toString())
       
     }
+
+
+    fun loadTapLocale(context: Context, url: String) {
+        Ion.with(context)
+            .load(url)
+            .asJsonObject()
+            .setCallback { e, result ->
+                if (e != null) {
+                    Toast.makeText(context, e.message, Toast.LENGTH_SHORT).show()
+                } else {
+                    localized = JSONObject(result.toString())
+                }
+            }
+    }
+
 
 
     fun <T> getValue(path: String, componentName: String, subcomponentName: String?=null): T {
