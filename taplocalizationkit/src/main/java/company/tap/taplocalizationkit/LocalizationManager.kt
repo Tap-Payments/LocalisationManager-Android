@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.content.res.Resources
 import android.widget.Toast
+import com.google.gson.JsonObject
 import com.koushikdutta.ion.Ion
 import org.json.JSONObject
 import java.io.*
@@ -24,6 +25,7 @@ All rights reserved.
 object LocalizationManager {
     private lateinit var localized: JSONObject
     private lateinit var localeVal: JSONObject
+    var currentLocalized:JSONObject= JSONObject()
     fun loadTapLocale(resources: Resources, resId: Int) {
         val `is`: InputStream = resources.openRawResource(resId)
         val writer: Writer = StringWriter()
@@ -36,6 +38,7 @@ object LocalizationManager {
             }
         }
         localized = JSONObject(writer.toString())
+        currentLocalized = localized
       
     }
 
@@ -49,6 +52,7 @@ object LocalizationManager {
                     Toast.makeText(context, e.message, Toast.LENGTH_SHORT).show()
                 } else {
                     localized = JSONObject(result.toString())
+                    currentLocalized = localized
                 }
             }
     }
@@ -61,7 +65,7 @@ object LocalizationManager {
         } else {
             localeVal = (localized.get(Locale.getDefault().toString()) as JSONObject)
         }
-        println("localeVal $localeVal")
+       // println("localeVal $localeVal")
         val valuekey: Any
         if (subcomponentName == "" || subcomponentName.isNullOrEmpty()) {
           //  valuekey = localeVal.getJSONObject(componentName).getJSONObject(path)
@@ -74,7 +78,7 @@ object LocalizationManager {
 
         }
         //  val valuekey = localeVal.getJSONObject(componentName).getJSONObject(path).get(subcomponentName)
-        println("valuekey $valuekey")
+      //  println("valuekey $valuekey")
         return valuekey as T
     }
 
