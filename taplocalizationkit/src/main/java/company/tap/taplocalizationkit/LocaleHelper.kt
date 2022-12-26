@@ -2,6 +2,8 @@ package company.tap.taplocalizationkit
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.content.res.Configuration
+import android.content.res.Resources
 import android.os.Build
 import androidx.core.content.edit
 import java.util.*
@@ -30,13 +32,22 @@ internal object LocaleHelper {
 
 
     internal fun setlocale(ctx: Context, locale: Locale): Context {
-        LocalePrefrences.setLocalePrefrences(ctx, locale)
+      /*  LocalePrefrences.setLocalePrefrences(ctx, locale)
         Locale.setDefault(locale)
         ctx.resources.configuration.apply {
             setLocale(locale)
             setLayoutDirection(locale)
             return ctx.createConfigurationContext(this)
-        }
+        }*/
+       // val locale = Locale(locale)
+        Locale.setDefault(locale)
+        val resources: Resources = ctx.resources
+        val config: Configuration = resources.configuration
+        config.setLocale(locale)
+
+        resources.updateConfiguration(config, resources.displayMetrics)
+
+       return ctx
     }
 
     private object LocalePrefrences {
