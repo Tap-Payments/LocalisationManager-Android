@@ -3,6 +3,7 @@ package company.tap.taplocalizationkit
 import android.app.Activity
 import android.content.Context
 import android.content.res.Resources
+import android.util.Log
 import android.widget.Toast
 import com.google.gson.JsonObject
 import com.koushikdutta.ion.Ion
@@ -39,7 +40,7 @@ object LocalizationManager {
         }
         localized = JSONObject(writer.toString())
         currentLocalized = localized
-        println("currentLocalized"+currentLocalized)
+        Log.d("currentLocalized", currentLocalized.toString())
       
     }
 
@@ -56,6 +57,7 @@ object LocalizationManager {
                     currentLocalized = localized
                 }
                 println("currentLocalized"+currentLocalized)
+                Log.d("currentLocalized", currentLocalized.toString())
             }
     }
 
