@@ -39,6 +39,7 @@ object LocalizationManager {
         }
         localized = JSONObject(writer.toString())
         currentLocalized = localized
+        println("currentLocalized"+currentLocalized)
       
     }
 
@@ -54,6 +55,7 @@ object LocalizationManager {
                     localized = JSONObject(result.toString())
                     currentLocalized = localized
                 }
+                println("currentLocalized"+currentLocalized)
             }
     }
 
